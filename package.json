@@ -14,7 +14,7 @@
     "@typescript-eslint/parser": "5.25.0",
     "autoprefixer": "10.4.7",
     "crx-hotreload": "1.0.6",
-    "eslint": "8.15.0",
+    "eslint": "8.20.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-import-access": "1.0.1",
