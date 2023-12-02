@@ -10,7 +10,7 @@ specifiers:
   '@types/react-dom': 18.2.6
   autoprefixer: ^10.4.13
   clsx: ^2.0.0
-  daisyui: ^3.0.0
+  daisyui: ^4.0.0
   date-fns: ^2.29.3
   plasmo: 0.80.0
   postcss: ^8.4.20
@@ -25,11 +25,11 @@ specifiers:
   zod: ^3.20.2
 
 dependencies:
-  daisyui: 3.0.4_postcss@8.4.20
+  daisyui: 4.4.17_postcss@8.4.20
   date-fns: 2.29.3
   plasmo: 0.80.0_iyfpnomciillkc63qm7dtpmfru
   react: 18.2.0
-  react-daisyui: 4.0.0_kz6zmjhcq5ettkyeggq63fk5ee
+  react-daisyui: 4.0.0_zflxqju5irgqizttxtouzxnaym
   react-dom: 18.2.0_react@18.2.0
   tailwindcss: 3.2.4_postcss@8.4.20
 
@@ -2938,10 +2938,6 @@ packages:
       color-string: 1.9.1
     dev: false
 
-  /colord/2.9.3:
-    resolution: {integrity: sha512-jeC1axXpnb0/2nn/Y1LPuLdgXBLH7aDcHu4KEKfqw3CUhX7ZpfBSlPKyqXE6btIgEzfWtrX3/tyBCaCvXvMkOw==}
-    dev: false
-
   /commander/4.1.1:
     resolution: {integrity: sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==}
     engines: {node: '>= 6'}
@@ -3066,18 +3062,21 @@ packages:
   /csstype/3.1.1:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
 
-  /daisyui/3.0.4_postcss@8.4.20:
-    resolution: {integrity: sha512-KfQXj1WD0U0qA+9olKqZRgqu/D6udA3+DjsT5PIdk3dOAFFbyzYzUiadiAbZ/QHe98IDBWHmVjjB51Hxg8TydQ==}
-    peerDependencies:
-      postcss: ^8
+  /culori/3.3.0:
+    resolution: {integrity: sha512-pHJg+jbuFsCjz9iclQBqyL3B2HLCBF71BwVNujUYEvCeQMvV97R59MNK3R2+jgJ3a1fcZgI9B3vYgz8lzr/BFQ==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dev: false
+
+  /daisyui/4.4.17_postcss@8.4.20:
+    resolution: {integrity: sha512-vcxLKoWiqPjEtcBkSayi9sDW1kWgWRdy1GjSu3zNtMiCsXwqDpCzNkdijuY9RuJ/2tBCtnwxhBv72Yizfi7KAQ==}
+    engines: {node: '>=16.9.0'}
     dependencies:
-      colord: 2.9.3
       css-selector-tokenizer: 0.8.0
-      postcss: 8.4.20
+      culori: 3.3.0
+      picocolors: 1.0.0
       postcss-js: 4.0.0_postcss@8.4.20
-      tailwindcss: 3.2.4_postcss@8.4.20
     transitivePeerDependencies:
-      - ts-node
+      - postcss
     dev: false
 
   /date-fns/2.29.3:
@@ -4739,7 +4738,7 @@ packages:
       strip-json-comments: 2.0.1
     dev: false
 
-  /react-daisyui/4.0.0_kz6zmjhcq5ettkyeggq63fk5ee:
+  /react-daisyui/4.0.0_zflxqju5irgqizttxtouzxnaym:
     resolution: {integrity: sha512-kE+Ybw6GD00AQ6fGm0JRUUF7t3P127D2+XFVRwhEHqgdwLo8K/XhuWA69ilNZSLTklgrnghaUh8H1mtubk3fmg==}
     peerDependencies:
       daisyui: ^3.0.22
@@ -4747,7 +4746,7 @@ packages:
       react-dom: '>=16'
       tailwindcss: '>=3.2.7'
     dependencies:
-      daisyui: 3.0.4_postcss@8.4.20
+      daisyui: 4.4.17_postcss@8.4.20
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       tailwindcss: 3.2.4_postcss@8.4.20
