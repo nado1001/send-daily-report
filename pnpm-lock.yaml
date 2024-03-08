@@ -4,7 +4,7 @@ specifiers:
   '@hookform/resolvers': ^3.0.0
   '@plasmohq/prettier-plugin-sort-imports': 4.0.1
   '@plasmohq/storage': ^1.0.0
-  '@types/chrome': 0.0.241
+  '@types/chrome': 0.0.263
   '@types/node': 18.16.19
   '@types/react': 18.2.14
   '@types/react-dom': 18.2.6
@@ -37,7 +37,7 @@ devDependencies:
   '@hookform/resolvers': 3.1.0_react-hook-form@7.41.5
   '@plasmohq/prettier-plugin-sort-imports': 4.0.1_prettier@3.0.0
   '@plasmohq/storage': 1.0.5_react@18.2.0
-  '@types/chrome': 0.0.241
+  '@types/chrome': 0.0.263
   '@types/node': 18.16.19
   '@types/react': 18.2.14
   '@types/react-dom': 18.2.6
@@ -2389,8 +2389,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: false
 
-  /@types/chrome/0.0.241:
-    resolution: {integrity: sha512-3WxC2D8zhyDnCU1GxyznoyUulLH6ReLWUWQm5LSM7S1rvV9w+k8TUNbWrFavk6zz2E1ws05lNawnSa7rK5kY8Q==}
+  /@types/chrome/0.0.263:
+    resolution: {integrity: sha512-As0vzv99ov3M6ZR7R6VzhMWFZXkPMrFrCEXXVrMN576Cm70fTkj7Df2CF+qEo170JepX50pd11cX6O4DSAtl2Q==}
     dependencies:
       '@types/filesystem': 0.0.32
       '@types/har-format': 1.2.10
